@@ -1,10 +1,18 @@
+<% provide(:title, 'Home') %>
 <div class="center hero-unit">
-    <h1>Rails project</h1>
+    <h1>Outer Space</h1>
     <h2>
       This is the home page.
     </h2>
 
-    <%= link_to "Sign up now!", "#", class: "btn btn-large btn-primary" %>
+    <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+
+    <p>
+    	<p>
+    	<%= link_to image_tag("rails.png", alt: "Rails"), 'http://vk.com/id268027109?w=wall268027109_55%2Fall' %>
+    </p>
+    </p>
+
 </div>
 
-<%= link_to image_tag("rails.png", alt: "Rails"), 'http://vk.com/id268027109?w=wall268027109_55%2Fall' %>
+
